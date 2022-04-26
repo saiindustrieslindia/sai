@@ -1,0 +1,30 @@
+ {% load static %}
+<header id="header" class="d-flex align-items-center">
+    <div class="container d-flex align-items-center justify-content-between">
+
+        <div class="logo">
+            <a href="index.html"><img src="{% static 'sai/img/logo.png' %}" alt="" class="img-fluid">Sai Industries</a>
+        </div>
+
+        <nav id="navbar" class="navbar">
+            <ul>
+                <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
+                <li><a class="nav-link scrollto" href="#about">About</a></li>
+                <li><a class="nav-link scrollto" href="#services">Services</a></li>
+                <li><a class="nav-link scrollto" href="#whoweserve">Who We Serve</a></li>
+                <li><a class="nav-link scrollto " href="#portfolio">Portfolio</a></li>
+                <li class="dropdown"><a href="#"><span>More..</span> <i class="bi bi-chevron-down"></i></a>
+                    <ul>
+                        <li><a class="nav-link scrollto" href="#pricing">R & D</a></li>
+                        <li><a class="nav-link scrollto" href="#clients">Our clients</a></li>
+                        <li><a class="nav-link scrollto" href="#team">Our Team</a></li>
+                        <li><a class="nav-link scrollto" href="#cad">CAD/CAM Capability</a></li>
+                    </ul>
+                </li>
+                <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
+            </ul>
+            <i class="bi bi-list mobile-nav-toggle"></i>
+        </nav><!-- .navbar -->
+
+    </div>
+</header><!-- End Header -->
