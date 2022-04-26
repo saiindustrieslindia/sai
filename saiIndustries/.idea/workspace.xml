@@ -39,11 +39,12 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/static/sai/css" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="preferences.fileTypes" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Users\admin\PycharmProjects\saiIndustries\saiIndustries" />
       <recent name="E:\Users\admin\PycharmProjects\saiIndustries\saiIndustries\static\sai\css" />
       <recent name="E:\Users\admin\PycharmProjects\saiIndustries\saiIndustries\static\sai\video" />
       <recent name="E:\Users\admin\PycharmProjects\saiIndustries\saiIndustries\sai" />
@@ -59,5 +60,16 @@
       <updated>1650689064172</updated>
     </task>
     <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/saiIndustries/settings.py</url>
+          <line>5</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
