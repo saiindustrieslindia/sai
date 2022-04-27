@@ -6,14 +6,14 @@ def home(request):
     if request.method == "POST":
         name = request.POST['name']
         email = request.POST['email']
-        subject = request.POST['subject']
+        subject = ' *** '+request.POST['subject']
         message = request.POST['message']
         #send an email
         send_mail(
-            name, # subject
+            name+'-'+subject, # subject
             message, #message
             email, #from email
-            ['saiindustrieslindia@gmail.com', 'suniljangira@hotmail.com']
+            ['saiindustrieslindia@gmail.com', 'ravishankarbhure@saiindustriesorg.com']
         )
         return render(request, 'home.html', {'name': name})
     else:

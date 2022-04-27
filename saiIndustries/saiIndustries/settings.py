@@ -132,3 +132,4 @@ EMAIL_USE_TLS = True
 DEFAULT_FROM_EMAIL = 'noreply<no_reply@domain.com>'
 
 STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
+
