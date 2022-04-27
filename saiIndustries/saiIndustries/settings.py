@@ -1,4 +1,9 @@
 import os
+
+import django_heroku
+
+import dj_database_url
+
 from pathlib import Path
 
 import django_heroku
@@ -132,4 +137,4 @@ EMAIL_USE_TLS = True
 DEFAULT_FROM_EMAIL = 'noreply<no_reply@domain.com>'
 
 
-
+django_heroku.settings(locals())
