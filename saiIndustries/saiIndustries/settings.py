@@ -144,6 +144,6 @@ EMAIL_USE_TLS = True
 
 DEFAULT_FROM_EMAIL = 'noreply<no_reply@domain.com>'
 
-django_heroku.settings(locals())
+
 
  
