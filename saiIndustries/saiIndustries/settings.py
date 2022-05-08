@@ -1,6 +1,5 @@
 import os
 from urllib.parse import urlparse
-from .cdn.conf import *  # noqa
 
 import dj_database_url
 
@@ -146,7 +145,7 @@ EMAIL_USE_TLS = True
 DEFAULT_FROM_EMAIL = 'noreply<no_reply@domain.com>'
 
 
-STATIC_ROOT = STATIC_ROOT = BASE_DIR / "staticfiles-cdn" # dev example
+
 
 
  
