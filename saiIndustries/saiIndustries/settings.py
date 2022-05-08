@@ -144,6 +144,13 @@ EMAIL_USE_TLS = True
 
 DEFAULT_FROM_EMAIL = 'noreply<no_reply@domain.com>'
 
+STATICFILES_DIRS = (
+    os.path.join(BASE_DIR, 'static'),
+)
+
+STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
+
+
 
 
 
