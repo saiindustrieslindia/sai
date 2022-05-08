@@ -1,7 +1,7 @@
 import os
 from urllib.parse import urlparse
 
-import django_heroku
+
 import dj_database_url
 
 from pathlib import Path
