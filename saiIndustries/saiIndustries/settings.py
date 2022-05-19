@@ -146,7 +146,7 @@ DEFAULT_FROM_EMAIL = 'noreply<no_reply@domain.com>'
 
 STATIC_ROOT = STATIC_ROOT = BASE_DIR / "staticfiles-cdn" # dev example
 
-from .cdn.conf import *  # noqa
+#from .cdn.conf import *  # noqa
 
 
 
