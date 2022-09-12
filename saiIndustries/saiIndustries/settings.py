@@ -20,7 +20,7 @@ SECRET_KEY = os.getenv("DJANGO_SECRET_KEY", get_random_secret_key())
 # DEBUG = True
 DEBUG = os.getenv("DEBUG", "False") == "False"
 
-ALLOWED_HOSTS = ['localhost', '143.110.240.80', 'saiindustries-7u9wl.ondigitalocean.app']
+ALLOWED_HOSTS = ['localhost', '143.110.240.80', 'sai-hco32.ondigitalocean.app']
 
 # ALLOWED_HOSTS = os.getenv("DJANGO_ALLOWED_HOST", "127.0.0.1,localhost").split(",")
 
